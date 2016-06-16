@@ -708,11 +708,11 @@ void CDuiFrameWnd::ShowPlayWnd( bool bShow )
     CControlUI *pctnMusic   = m_PaintManager.FindControl(_T("ctnMusic"));
     CControlUI *pctnSlider  = m_PaintManager.FindControl(_T("ctnSlider"));
 
-    if (pbtnWnd && pbtnStop && pbtnScreen && pctnURL && pctnClient && pctnMusic && pctnSlider)
+    if (pbtnWnd && pbtnStop && pbtnScreen &&pctnClient && pctnMusic && pctnSlider)
     {
         pbtnStop->SetEnabled(bShow);
         pbtnScreen->SetEnabled(bShow);
-        pctnURL->SetVisible(! bShow);
+       // pctnURL->SetVisible(! bShow);
         pctnClient->SetVisible(! bShow);
         pctnSlider->SetVisible(bShow);
 

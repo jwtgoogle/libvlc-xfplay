@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <Window size="226,480">
-	<HorizontalLayout>
+	
 		
 		<VerticalLayout name="ctnPlaylist" bkcolor="#FF111111">
 			<!-- <HorizontalLayout height="28">
@@ -22,5 +22,5 @@
 				</VerticalLayout>
 				</HorizontalLayout>
 		</VerticalLayout>
-	</HorizontalLayout>
+
 </Window>

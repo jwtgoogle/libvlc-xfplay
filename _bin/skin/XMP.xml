@@ -10,7 +10,7 @@
         <Caption height="22" />
         <TabLayout name="tabCaption">
             <HorizontalLayout>
-                
+                <Playlist  width="225"/>
                 <VerticalLayout>
                     <!-- <HorizontalLayout name="ctnURL" height="26" inset="0, 0, 1, 0">
                         <Edit   name="editURL" text="请输入播放地址" font="3" textpadding="10,0,8,0" bordersize="1" focusbordercolor="#FF154B83" nativebkcolor="#FF0E0E0E" bkcolor="#FF0E0E0E" textcolor="#FF4B4F51" disabledtextcolor="#FFA7A6AA" />
@@ -46,7 +46,7 @@
                     <WndMediaDisplay name="wndMedia" visible="false"/>
                     <PlayPanel height="75" />
                 </VerticalLayout>
-				<Playlist  width="225"/>
+				
             </HorizontalLayout>
             <ActiveX name="ActiveXLib" />
             <ActiveX name="ActiveXFind" />
