@@ -782,6 +782,7 @@ void CDuiFrameWnd::AddFiles( const std::vector<PlayFileInfo> &vctString, bool bI
 			pOptionTmp->SetUserData(vctString[i].szFileName);
 			pOptionTmp->SetName(vctString[i].szFileName);
 			pOptionTmp->SetSelectedImage(_T("file='btn_bk.png'"));
+			pOptionTmp->SetAttribute(_T("group"), _T("playfilelist"));
             pLayout->Add(pOptionTmp);
             uWantedCount++;
 
