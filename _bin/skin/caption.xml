@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="600,40"><!--854,40-->
+    <HorizontalLayout name="ctnCaption" bkimage="file='xf_main.bmp' source='1,2,55,24'" bkcolor="#FF0E1A2F" bkcolor2="#FF060606">
+        <VerticalLayout width="550">
+            <!--Button name="btnMenu" float="true" pos="10,7,0,0" width="38" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='btn_menu.png' source='0,0,38,26'" hotimage="file='btn_menu.png' source='117,0,155,26'" pushedimage="file='btn_menu.png' source='78,0,116,26'" focusedimage="file='btn_menu.png' source='39,0,77,26'" />
+            <Option name="tabPlay" text="播放" float="true" pos="66,0,0,0" width="88" height="38" textcolor="#FFB7DBFB" disabledtextcolor="#FFA7A6AA" font="1" align="center" hottextcolor="#FF084DC8" group="caption" selected="true" selectedimage="light_top.png" />
+            < <Option name="tabLib" text="汤亚子" float="true" pos="165,0,0,0" width="88" height="38" textcolor="#FF8F99A4" disabledtextcolor="#FFA7A6AA" font="0" align="center" hottextcolor="#FF084DC8" group="caption" selectedimage="light_top.png" />
+            <Option name="tabFind" text="张小飞" float="true" pos="264,0,0,0" width="88" height="38" textcolor="#FF8F99A4" disabledtextcolor="#FFA7A6AA" font="0" align="center" hottextcolor="#FF084DC8" group="caption" selectedimage="light_top.png" />
+            <Option name="tabMine" text="易海燕" float="true" pos="363,0,0,0" width="88" height="38" textcolor="#FF8F99A4" disabledtextcolor="#FFA7A6AA" font="0" align="center" hottextcolor="#FF084DC8" group="caption" selectedimage="light_top.png" />
+            <Option name="tabCloud" text="赵娟子" float="true" pos="462,0,0,0" width="88" height="38" textcolor="#FF8F99A4" disabledtextcolor="#FFA7A6AA" font="0" align="center" hottextcolor="#FF084DC8" group="caption" selectedimage="light_top.png" /> -->
+        </VerticalLayout>
+        <VerticalLayout />
+        <VerticalLayout width="60" height="40">
+            <!-- <Button name="btnLogin" float="true" pos="31,14,0,0" width="24" height="13" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='btn_login.png' source='0,0,24,13'" hotimage="file='btn_login.png' source='25,0,49,13'" pushedimage="file='btn_login.png' source='50,0,74,13'" /> -->
+            <Button name="minbtn" tooltip="最小化" float="true" pos="0,3,0,0" width="20" height="20" bkimage="file='xf_main.bmp' source='0,32,20,52'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hotimage="file='xf_main.bmp' source='20,32,40,52'" pushedimage="file='xf_main.bmp' source='40,32,60,52'" />
+            <Button name="maxbtn" tooltip="最大化" float="true" pos="20,3,0,0" width="20" height="20" bkimage="file='xf_main.bmp' source='0,53,20,73'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hotimage="file='xf_main.bmp' source='20,53,40,73'" pushedimage="file='xf_main.bmp' source='40,53,60,73'" />
+            <Button name="restorebtn" tooltip="还原" visible="false" float="true" pos="25,3,0,0" width="20" height="20" bkimage="file='xf_main.bmp' source='0,53,20,73'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hotimage="file='xf_main.bmp' source='20,53,40,73'" pushedimage="file='xf_main.bmp' source='40,53,60,73'" />
+            <!-- <Button name="closebtn" tooltip="关闭" float="true" pos="125,3,0,0" width="36" height="31" bkimage="file='btn_minmax.png' source='90,0,105,15' dest='11,8,26,23' " textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hotimage="file='btn_style_close.png' source='36,0,72,30'" pushedimage="file='btn_style_close.png' source='72,0,108,30'" /> -->
+			<Button name="closebtn" tooltip="关闭" float="true" pos="40,3,0,0" width="20" height="20" bkimage="file='xf_main.bmp' source='0,74,20,94'" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hotimage="file='xf_main.bmp' source='20,74,40,94'" pushedimage="file='xf_main.bmp' source='40,74,60,94'" />
+        </VerticalLayout>
+    </HorizontalLayout>
+</Window>
